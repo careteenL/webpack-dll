@@ -1,0 +1,28 @@
+{
+  "name": "webpack-dll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dll": "webpack --config webpack.dll.config.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/careteenL/webpack-dll.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/careteenL/webpack-dll/issues"
+  },
+  "homepage": "https://github.com/careteenL/webpack-dll#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "is-promise": "^4.0.0",
+    "isarray": "^2.0.5",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0"
+  }
+}
